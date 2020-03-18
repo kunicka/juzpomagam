@@ -1,0 +1,33 @@
+p {
+    color: rgb(219, 21, 54);
+    font-size: 0,5cm; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(54, 202, 247);
+    margin: 50px;
+}
+
+
+img {
+    display: flex;
+}
+
+td {
+    border: 1px solid rgb(80, 185, 255);
+    background-color: burlywood;
+}
+
+.suma {
+    background-color: rgb(243, 114, 9)
+}
+
+#max {
+    background-color: rgb(0, 255, 221)
+}
+
+.column {
+    width: 45%;
+    float: left;
+}
