@@ -1,0 +1,15 @@
+###PROCECT FILES###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule apteki-dla-ciebie index.html
+RewriteRule apteka-dla-ciebie-auchan a.html
+RewriteRule apteka-po-zdrowie-suchanino s.html
+RewriteRule apteka-zdrowie-zukowo z.html
+RewriteRule apteka-dla-zdrowia-gdynia g.html
+RewriteRule apteka-pod-lampionami p.html
+RewriteRule skontaktuj-sie-z-nami kontakt.html
+RewriteRule pracuj-z-nami praca.html

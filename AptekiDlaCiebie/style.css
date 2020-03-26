@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+    color: rgb(10, 92, 143)f;
+    font-family:'Neuton', serif;
+    font-size: 25px;
+    width: 100%;
+}
+
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle{
+    width: 960px;
+    margin: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color:rgb(10, 92, 143);
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.square {
+    width: 500px;
+    float: left;
+    
+}
+
+#logo{
+    float:left;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(10, 92, 143);
+}
+
+#zegar{
+    float: left;
+    font-family:'Cinzel', serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(10, 92, 143);
+}
+
+a.tilelink{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+
+a.logolink{
+    color:rgb(10, 92, 143);
+    text-decoration: none;
+    display: block;
+}
+
+.tile1{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: rgb(10, 92, 143);
+    float: left;
+    text-align: center;
+    color: lightgrey;
+}
+
+.tilee1{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: rgb(52, 173, 248);
+    float: left;
+    text-align: center;
+    color: lightgrey;
+}
+
+.tile1:hover{
+    background-color:lightgrey;
+}
+
+.tilee1:hover{
+    background-color:lightgrey;
+}
+
+.tile2{
+    margin: 10px;
+    width: 480px;
+    height: 142px;
+    background-color: rgb(10, 92, 143);
+    float: left;
+    text-align: center;
+}
+
+.tile2:hover{
+    background-color:rgb(52, 173, 248);
+}
+
+.tile3{
+    margin: 10px;
+    width: 440px;
+    height: 264px;
+    background-color:lightgrey;
+    text-align: justify;
+
+    padding:20px;
+    color: rgb(10, 92, 143);
+}
+
+.tile4{
+    margin: 10px;
+    width: 360px;
+    height: 184px;
+    background-color:lightgrey;
+    text-align: center;
+    padding:60px;
+    color: rgb(10, 92, 143);
+    
+}
+.picture{
+    margin: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 480px;
+    height: 284px;
+    background-color:rgb(10, 92, 143);
+    text-align: center;
+    
+    color: lightgrey;
+    
+}
+
+.picture img {
+    border-radius: 8px;
+    max-height: 284px;
+    opacity:0.95;
+
+}
+
+
