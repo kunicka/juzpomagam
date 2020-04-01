@@ -1,0 +1,94 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
+      "css": "mail",
+      "code": 59392,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "f43389fa3f5a5b152ed0231fe7bb18a7",
+      "css": "hospital",
+      "code": 59425,
+      "src": "maki"
+    },
+    {
+      "uid": "a42b598e4298f3319b25a2702a02e7ff",
+      "css": "location",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "igynut9bozd2s1mxnmkeeut1qou984gc",
+      "css": "globe",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "n1ld0w7zazkxq7bsqtksyez86sdufqgd",
+      "css": "globe-alt",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "d061c177f823e3ab1eb38085f84efaf2",
+      "css": "location-inv",
+      "code": 59397,
+      "src": "iconic"
+    },
+    {
+      "uid": "99qmwsnyl7d1848xayggtcwaysc4e415",
+      "css": "user-woman",
+      "code": 59398,
+      "src": "modernpics"
+    },
+    {
+      "uid": "a6a5b2ea227f86157ba54ae543785161",
+      "css": "compass",
+      "code": 59399,
+      "src": "meteocons"
+    },
+    {
+      "uid": "8045477f6a7ef0bd7caff130ad25b88d",
+      "css": "facebook-rect",
+      "code": 62209,
+      "src": "brandico"
+    },
+    {
+      "uid": "cc20f2a7fa05a475130c406740bbbd26",
+      "css": "instagram-filled",
+      "code": 62239,
+      "src": "brandico"
+    },
+    {
+      "uid": "b6ef4443ecc502136135437837d9724b",
+      "css": "mail-1",
+      "code": 59400,
+      "src": "elusive"
+    },
+    {
+      "uid": "10fdd98fb50c590b805a3ad6ff9c55f5",
+      "css": "asl",
+      "code": 59401,
+      "src": "elusive"
+    },
+    {
+      "uid": "6fbd93c0d220507921015a15575009e5",
+      "css": "paper-plane",
+      "code": 59402,
+      "src": "linecons"
+    }
+  ]
+}
