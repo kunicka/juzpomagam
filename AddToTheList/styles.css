@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    color: white;
+  }
+
+  h1 {
+    font-family: 'Bangers', cursive;
+    text-align: justify;
+    letter-spacing: 2px; 
+  }
+
+  .newId,
+  .newTd {
+    border: white 1px solid;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+
+  .newId {
+    padding-left: 0px;
+    padding-right:0px;
+  }

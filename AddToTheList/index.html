@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="jsLogic.js"></script>
+  </head>
+  <body>
+    <h1>Dopisz siebie do listy</h1>
+    <h2 id="howManyLeft"></h2>
+
+    <form>
+      <label for="nameData">Wpisz swoje imię </label>
+      <input type="text" id="nameData" /><br />
+      <label for="surnameData">Wpisz swoje nazwisko</label>
+      <input id="surnameData" /><br /><br />
+      <input id="button" onclick="addToTheList()"  value="Dopisz się do listy" />
+      <br /><br />
+    </form>
+<div id="result"></div>
+    <table>
+      <tr class="newTr">
+        <th class="newId">id</th>
+        <th class="newTd">Imię</th>
+        <th class="newTd">Nazwisko</th>
+      </tr>
+    </table>
+
+      
+    
+  </body>
+</html>
