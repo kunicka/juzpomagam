@@ -19,6 +19,10 @@ body {
   background-color: white;
 }
 
+p{
+  text-align: justify;
+}
+
 .logo img {
   height: 70px;
   float: left;
@@ -126,39 +130,25 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 950px;
+  width: 1200px;
   padding: 0px;
 }
 
 header {
   background-color: white;
-  width: 1000px;
+  width: 1200px;
 }
 
 header h1 {
     margin-top: 0px;
+    font-family: "Abril Fatface", normal;
 }
 
 h1 {
   padding-top: 10px;
-  font-size: 30px;
-}
-
-.aside {
-  width: 200px;
-  padding-right: 30px;
-  height: auto;
-  float: left;
-  background-color: white;
-}
-
-.aside > ul > li {
-  text-align: center;
-  list-style-type: none;
-}
-
-.aside > ul {
-  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 article {
@@ -168,9 +158,11 @@ article {
 
 footer {
   margin-top: 100px;
+  padding-bottom:10px;
+  padding-left:175px;
   margin-left: 100px;
-  width: 1150px;
-  height: 200px;
+  width: 1030px;
+  height: 110px;
   border-radius: 10px;
   color: white;
   text-align: center;
@@ -179,9 +171,50 @@ footer {
 
 .adres {
   text-align: center;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 10px;
+  float:left;
+ 
+}
+
+.facebook {
+  float:left;
+  padding-top:30px;
+  padding-left:50px;
+  padding-right: 70px;
+}
+
+.facebook a, .mailTo a, .adres a, #contact a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+.kontakt a {
+  color: rgb(22, 71, 89);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+.facebook a:hover, .mailTo a:hover, .adres a:hover {
+  color: rgb(117, 115, 115);
+  
+}
+
+.mailTo {
+  float:left;
+  padding-top:30px;
+  padding-right: 150px;
+  font-size: 40px;
 }
 
 p {
@@ -189,17 +222,37 @@ p {
 }
 
 .catPhoto {
-  padding-top: 20px;
+  
+  padding-bottom: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
   width: 450px;
   height: auto;
   float: left;
-  padding: 5px;
+  
+  
+}
+
+ #contact{
+  color:white;
+  background-color:rgb(22, 71, 89);
+  font-size: 20px;
+ 
+
+}
+
+
+
+.main {
+  width: 1200px;
+  height: 300px;
 }
 
 .catPhoto img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
+  
 }
 
 h2 {
@@ -209,7 +262,11 @@ h2 {
   text-align: center;
   background-color: rgb(22, 71, 89);
   padding-bottom: 10px;
-  margin-top: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: "Abril Fatface";
+  letter-spacing: 2px;
+  font-weight:normal;
 }
 
 h3 {
@@ -238,20 +295,26 @@ h3 {
 }
 
 .actualPhoto {
-  width: 200px;
+  width: 170px;
   float: left;
-  padding-right: 40px;
+  padding-right: 20px;
+  padding-top: 80px;
+
 }
+
+
 
 .acutalText {
   width: 500px;
   float: left;
   background-color: white;
+  
 }
 
 .actualPhoto img {
-  width: 190px;
+  width: 170px;
   padding-top: 10px;
+  border-radius:10%;
 }
 
 #aktualnosci {
@@ -274,6 +337,7 @@ h3 {
 .kontakt {
   text-align: center;
   font-size: 10px;
+  font-family: "Abril Fatface", normal;
 }
 
 .downstairs {
@@ -291,9 +355,13 @@ h3 {
 }
 
 .middlepics {
-  width: 1000px;
-  height: 50px;
+  width: 1200px;
+  height: auto;
   background-color:white;
+  margin-left: auto;
+  margin-right: auto;
+  
+
 }
 
 .actualText a {
@@ -332,4 +400,78 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left:70px;
+  }
+
+  .aside a {
+    text-decoration: none;
+    color:rgb(22, 71, 89);
+  }
+
+  .aside a:hover {
+    color:rgb(48, 138, 170);
+  }
+
+  .text-left {
+    text-align: left;
+    
+  }
+
+  .whiteDiv {
+    background-color: white;
+  }
+
+  button {
+    padding:20px; 
+    border-radius:10px;
+  }
+
+  .news {
+    margin-top: 20px;
+  }
+
+  .smallActualPhoto {
+    width: 150px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+  }
+
+  .smallActualPhoto img {
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .date {
+    float: left;
+    padding-top: 45px;
+    padding-left: 0px;
+    color:white;
+    padding-right: 30px;
+  }
+
+  .acth2 {
+    text-align: justify;
+  }
+
+  .symbolPhoto{
+    float: left;
+    height: 30px;
+    margin-left: 380px;
+    margin-right: 10px;
+  }
+
+  .symbolPhoto img {
+    height: 25px;
+  }
+
+  .ulAct{
+    text-align: left;
+    list-style-type:none;
+  }
+
+  .actPhoto{
+   max-width: 800px;
+   max-height: 300px;
+   padding-left:180;
   }

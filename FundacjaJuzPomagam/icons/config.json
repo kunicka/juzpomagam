@@ -1,0 +1,58 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "500fc1f109021e4b1de4deda2f7ed399",
+      "css": "laptop",
+      "code": 61705,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled",
+      "code": 61595,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8dc7142e4848751b5d2b0200ba77b991",
+      "css": "free-code-camp",
+      "code": 62149,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "96aafeab29734d1510805687f7695f8f",
+      "css": "facebook-circled",
+      "code": 61521,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
+      "css": "linkedin-circled",
+      "code": 62233,
+      "src": "entypo"
+    },
+    {
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
+      "css": "mail",
+      "code": 59392,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "99qmwsnyl7d1848xayggtcwaysc4e415",
+      "css": "user-woman",
+      "code": 59393,
+      "src": "modernpics"
+    }
+  ]
+}
